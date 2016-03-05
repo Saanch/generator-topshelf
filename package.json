@@ -1,0 +1,25 @@
+{
+  "name": "generator-topshelf",
+  "version": "1.0.0",
+  "description": "Generator for Topshelf based windows service applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "topshelf",
+    "windows",
+    "service"
+  ],
+  "author": "Sanu Sathyaseelan",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "lodash": "^4.6.1",
+    "path": "^0.12.7",
+    "uuid": "^2.0.1",
+    "vs_projectname": "^1.0.2",
+    "yeoman-generator": "^0.22.5",
+    "yosay": "^1.1.0"
+  }
+}
