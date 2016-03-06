@@ -4,7 +4,7 @@
   "description": "Generator for Topshelf based windows service applications",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "topshelf",
@@ -21,5 +21,8 @@
     "vs_projectname": "^1.0.2",
     "yeoman-generator": "^0.22.5",
     "yosay": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
   }
 }
